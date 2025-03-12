@@ -1,0 +1,43 @@
+[2025-03-12 04:23:33.960] ERROR: This is an error message (cl_log; <src/main.rs> #28; ThreadId(1))
+   0: cl_log::Logger::record_as_string
+             at /home/liyara/Programming/project/cl-log/src/lib.rs:113:54
+   1: <cl_log::Logger as log::Log>::log
+             at /home/liyara/Programming/project/cl-log/src/lib.rs:135:35
+   2: log::__private_api::log_impl
+             at /home/liyara/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.26/src/__private_api.rs:61:5
+   3: log::__private_api::log
+             at /home/liyara/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.26/src/__private_api.rs:72:5
+   4: cl_log::main
+             at /home/liyara/Programming/project/cl-log/src/main.rs:28:5
+   5: core::ops::function::FnOnce::call_once
+             at /home/liyara/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/ops/function.rs:250:5
+   6: std::sys::backtrace::__rust_begin_short_backtrace
+             at /home/liyara/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/sys/backtrace.rs:152:18
+   7: std::rt::lang_start::{{closure}}
+             at /home/liyara/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/rt.rs:199:18
+   8: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &F>::call_once
+             at /rustc/a730edcd67c7cb29d4458e170d4eb290387c27c3/library/core/src/ops/function.rs:284:13
+      std::panicking::try::do_call
+             at /rustc/a730edcd67c7cb29d4458e170d4eb290387c27c3/library/std/src/panicking.rs:587:40
+      std::panicking::try
+             at /rustc/a730edcd67c7cb29d4458e170d4eb290387c27c3/library/std/src/panicking.rs:550:19
+      std::panic::catch_unwind
+             at /rustc/a730edcd67c7cb29d4458e170d4eb290387c27c3/library/std/src/panic.rs:358:14
+      std::rt::lang_start_internal::{{closure}}
+             at /rustc/a730edcd67c7cb29d4458e170d4eb290387c27c3/library/std/src/rt.rs:168:24
+      std::panicking::try::do_call
+             at /rustc/a730edcd67c7cb29d4458e170d4eb290387c27c3/library/std/src/panicking.rs:587:40
+      std::panicking::try
+             at /rustc/a730edcd67c7cb29d4458e170d4eb290387c27c3/library/std/src/panicking.rs:550:19
+      std::panic::catch_unwind
+             at /rustc/a730edcd67c7cb29d4458e170d4eb290387c27c3/library/std/src/panic.rs:358:14
+      std::rt::lang_start_internal
+             at /rustc/a730edcd67c7cb29d4458e170d4eb290387c27c3/library/std/src/rt.rs:164:5
+   9: std::rt::lang_start
+             at /home/liyara/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/std/src/rt.rs:198:5
+  10: main
+  11: <unknown>
+  12: __libc_start_main
+  13: _start
+
+[2025-03-12 04:23:33.960] WARN: This is a warning message (cl_log; <src/main.rs> #29; ThreadId(1))

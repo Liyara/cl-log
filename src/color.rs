@@ -22,7 +22,7 @@ impl Color {
 
     pub const CL_ERROR: Color = Color   { r: 255, g: 55,  b: 55 };
     pub const CL_WARN: Color = Color    { r: 255, g: 166, b: 55 };
-    pub const CL_INFO: Color = Color    { r: 238, g: 238, b: 238 };
+    pub const CL_INFO: Color = Color    { r: 62, g: 255, b: 55 };
     pub const CL_DEBUG: Color = Color   { r: 48,  g: 166, b: 255 };
     pub const CL_TRACE: Color = Color   { r: 255, g: 55,  b: 255 };
 }
